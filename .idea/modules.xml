@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TaigaIOMobile.iml" filepath="$PROJECT_DIR$/TaigaIOMobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TaigaIo.iml" filepath="$PROJECT_DIR$/TaigaIo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
