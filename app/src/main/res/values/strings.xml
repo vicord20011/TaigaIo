@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TaigaIOMobile</string>
+    <string name="drawer_open">Drawer is open</string>
+    <string name="drawer_close">Drawer is closed</string>
 </resources>

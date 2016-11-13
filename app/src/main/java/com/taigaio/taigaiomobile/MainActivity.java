@@ -1,5 +1,6 @@
 package com.taigaio.taigaiomobile;
 
+import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -7,18 +8,20 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import com.taigaio.taigaiomobile.fragments.ContactGroupsFragment;
 import com.taigaio.taigaiomobile.fragments.MessageGroupsFragment;
 
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawer;
     private Toolbar toolbar;
     private NavigationView nvDrawer;
+    private TextView menuButton;
     private ActionBarDrawerToggle drawerToggle;
 
     @Override
@@ -31,7 +34,31 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         // Find our drawer view
+        nvDrawer = (NavigationView) findViewById(R.id.nvView);
+
+        // Find our drawer view
         mDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawerToggle = setupDrawerToggle();
+
+        // Tie DrawerLayout events to the ActionBarToggle
+        mDrawer.addDrawerListener(drawerToggle);
+
+        menuButton = (TextView) findViewById(R.id.menuButton);
+        menuButton.setOnClickListener(
+                new View.OnClickListener() {
+
+                    @Override
+                    public void onClick(View v) {
+                        mDrawer.openDrawer(Gravity.LEFT);
+                    }
+                });
+
+        // Setup drawer view
+        setupDrawerContent(nvDrawer);
+    }
+
+    private ActionBarDrawerToggle setupDrawerToggle() {
+        return new ActionBarDrawerToggle(this, mDrawer, toolbar, R.string.drawer_open,  R.string.drawer_close);
     }
 
     @Override
@@ -60,16 +87,16 @@ public class MainActivity extends AppCompatActivity {
     public void selectDrawerItem(MenuItem menuItem) {
         // Create a new fragment and specify the fragment to show based on nav item clicked
         Fragment fragment = null;
-        Class fragmentClass = MessageGroupsFragment.class;
+        Class fragmentClass;
         switch(menuItem.getItemId()) {
             case R.id.nav_first_fragment:
-                fragmentClass = MessageGroupsFragment.class;
+                fragmentClass = ContactGroupsFragment.class;
                 break;
             case R.id.nav_second_fragment:
-                //fragmentClass = SecondFragment.class;
+                fragmentClass = MessageGroupsFragment.class;
                 break;
             default:
-                fragmentClass = MessageGroupsFragment.class;
+                fragmentClass = ContactGroupsFragment.class;
         }
 
         try {

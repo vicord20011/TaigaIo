@@ -1,3 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\Downloads\Android\TaigaIo\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="D:\Downloads\Android\TaigaIo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.1.1_d2c9a1caf107ef3704dba8f7cb3b0ae4c99761f6\classes.dex" />
+    </item>
+    <item
+        jar="D:\Downloads\Android\TaigaIo\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="D:\Downloads\Android\TaigaIo\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_ac50277945bc3e68e77e5d56ab8da119008f0e99\classes.dex" />
+    </item>
+    <item
+        jar="D:\Downloads\Android\TaigaIo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="D:\Downloads\Android\TaigaIo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_139a4bb1e8471a74ecf6e290a1b054f6f3722c76\classes.dex" />
+    </item>
+    <item
+        jar="D:\Downloads\Android\TaigaIo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="b4be2d8d60cfcb19ebe7aea72ad5c85c47c9bacf">
+        <dex dex="D:\Downloads\Android\TaigaIo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_294bff39a7f2f260878347c0b9033713c5b2e932\classes.dex" />
+    </item>
+    <item
+        jar="D:\Downloads\Android\TaigaIo\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="D:\Downloads\Android\TaigaIo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.1.1_f51387ddbaec43d7900b64f75bfce9a3123ece47\classes.dex" />
+    </item>
+    <item
+        jar="D:\Downloads\Android\TaigaIo\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="D:\Downloads\Android\TaigaIo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_b05a7cdea7e343349b9d7c15e085a6d32aa398a3\classes.dex" />
+    </item>
+    <item
+        jar="D:\Downloads\Android\TaigaIo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e02eff115cd60bd9892d45ff953f6aea52abf769">
+        <dex dex="D:\Downloads\Android\TaigaIo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_709fd71d1340140d9ddd5074ecaea47cec2145ee\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\z003as0n\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="D:\Downloads\Android\TaigaIo\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_992a67f8ce2a3ee13f638df5b30050b04fb851ea\classes.dex" />
+    </item>
+    <item
+        jar="D:\Downloads\Android\TaigaIo\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="D:\Downloads\Android\TaigaIo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_de986cb147a7e2354f0e6cfc3044dd4ca1577677\classes.dex" />
+    </item>
+    <item
+        jar="D:\Downloads\Android\TaigaIo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="D:\Downloads\Android\TaigaIo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_24d2ac48be4638f507550999d739849b7497c52c\classes.dex" />
+    </item>
+
+</items>
